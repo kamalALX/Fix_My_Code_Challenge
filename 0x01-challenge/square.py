@@ -7,8 +7,8 @@ class Square():
     
     def __init__(self, *args, **kwargs):
         """ class square that creates a square """
-        width = 0
-        height = 0
+        self.width = 0
+        self.height = 0
         for key, value in kwargs.items():
             setattr(self, key, value)
 
