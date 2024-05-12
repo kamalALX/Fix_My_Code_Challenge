@@ -25,7 +25,7 @@ class square():
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
-
+    """ class square that creates a square """
     s = square(width=12, height=12)
     print(s)
     print(s.area_of_my_square())
