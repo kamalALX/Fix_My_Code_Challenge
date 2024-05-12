@@ -8,6 +8,7 @@ class square():
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """ class square that creates a square """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -16,9 +17,11 @@ class square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """ class square that creates a square """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """ class square that creates a square """
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
