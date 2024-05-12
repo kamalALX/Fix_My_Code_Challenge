@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+""" this module defines a class named square """
+
 
 class square():
-    
+    """ class square that creates a square """
     width = 0
     height = 0
 
