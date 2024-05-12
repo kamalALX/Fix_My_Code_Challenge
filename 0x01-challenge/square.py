@@ -2,7 +2,7 @@
 """ this module defines a class named square """
 
 
-class square():
+class Square():
     """ class square that creates a square """
     width = 0
     height = 0
@@ -16,7 +16,7 @@ class square():
         """ Area of the square """
         return self.width * self.width
 
-    def PermiterOfMySquare(self):
+    def perimeter_of_my_square(self):
         """ class square that creates a square """
         return (self.width * 2) + (self.height * 2)
 
