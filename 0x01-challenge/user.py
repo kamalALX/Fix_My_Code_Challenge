@@ -5,16 +5,11 @@ thi module defines User class
 
 
 class User():
-    """ class user """
+    """ class that defines a user """
 
     def __init__(self):
         """ Initialization method """
         self.__email = None
-
-    @property
-    def email(self):
-        """ getter for email """
-        return self.__email
 
     @property
     def email(self):
