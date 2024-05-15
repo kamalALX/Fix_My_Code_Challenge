@@ -30,7 +30,9 @@ class User():
 
 
 if __name__ == "__main__":
-
+    """
+        Main function to demonstrate usage of the User class.
+    """
     u = User()
     u.email = "john@snow.com"
     print(u.email)
