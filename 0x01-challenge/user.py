@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-User class
+thi module defines User class
 """
 
 
@@ -18,7 +18,7 @@ class User():
 
     @property
     def email(self):
-        """ Documentation """
+        """ get the email address of the user """
         return self.__email
 
     @email.setter
@@ -31,7 +31,7 @@ class User():
 
 if __name__ == "__main__":
     """
-        Main function to demonstrate usage of the User class.
+    Main function to demonstrate usage of the User class.
     """
     u = User()
     u.email = "john@snow.com"
